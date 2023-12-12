@@ -1,0 +1,11 @@
+url: ~
+template:
+  bootstrap: 5
+   bootswatch: minty
+  bslib:
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "Nunito"}
+  theme: ayu-light
+  
+ 
