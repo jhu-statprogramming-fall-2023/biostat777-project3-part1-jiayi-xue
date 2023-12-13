@@ -1,30 +1,43 @@
-
 # jpeg
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
+### URL to the GitHub link to the original R package:
 
-## URL to the GitHub link to the original R package: https://github.com/s-u/jpeg
+<https://github.com/s-u/jpeg>
 
-## Include a URL to the deployed website that you will do in Part 1E, but it should be something like https://jhu-statprogramming-fall-2022.github.io/biostat840-project3-pkgdown-<your_github_username>.
+### URL to the deployed website that in Part 1E:
 
-## 5 things you customized in your pkgdown website (excluding adding the example data analysis from Part 1C).
+<https://jhu-statprogramming-fall-2023.github.io/biostat777-project3-part1-jiayi-xue/>
 
+### 5 things customized in the pkgdown website (excluding adding the example data analysis from Part 1C):
 
-## Title: jpeg
+1.  Change the bootswatch theme into 'minty'.
 
-## Author: Simon Urbanek
+2.  The colours used for syntax highlighting in code blocks are changed into 'ayu-light' theme.
 
-## Person who made the website and example data analysis: Jiayi Xue
+3.  Change the fonts of the text.
+
+4.  Switch the position of the left and right navigation bar.
+
+5.  Remove the homepage sidebar.
+
+### Title: jpeg
+
+### Author: Simon Urbanek
+
+### Person who made the website and example data analysis: Jiayi Xue
 
 ### Goal:
 
-The package can be used to read, write and display bitmap images stored in the JPEG format. 
+The package can be used to read, write and display bitmap images stored in the JPEG format.
 
 ### Exported functions:
-1. readJPEG(): Read an image from a JPEG file/content into a raster array.
-2. writeJPEG(): Create a JPEG image from an array or matrix.
+
+1.  readJPEG(): Read an image from a JPEG file/content into a raster array.
+2.  writeJPEG(): Create a JPEG image from an array or matrix.
 
 ## Installation
 
@@ -54,6 +67,4 @@ library(jpeg)
       rasterImage(img.n, 1.5, 1.5, 1.9, 1.8)
     }
     
-
 ```
-

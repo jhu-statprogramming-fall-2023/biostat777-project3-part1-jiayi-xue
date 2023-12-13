@@ -1,11 +1,15 @@
 url: ~
 template:
   bootstrap: 5
-   bootswatch: minty
+  bootswatch: minty
+  theme: ayu-light
   bslib:
     base_font: {google: "Roboto"}
     heading_font: {google: "Roboto Slab"}
     code_font: {google: "Nunito"}
-  theme: ayu-light
-  
- 
+navbar:
+  structure:
+    left: [Search]
+    right: [reference, articles]
+home:
+  sidebar: false
